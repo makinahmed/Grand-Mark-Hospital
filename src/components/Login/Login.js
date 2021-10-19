@@ -39,8 +39,9 @@ const Login = () => {
     }
     console.log(user)
     return (
-        <div style={{ width: 250, textAlign: 'center', marginTop: 200, margin: 'auto' }}>
+        <div style={{ width: 300, textAlign: 'center', marginTop: 200, margin: 'auto' }}>
             <Form
+              className="border-1 border p-5 shadow rounded"
                 onSubmit={handleSubmit}
                 style={{ marginTop: 200, textAlign: 'left' }}
 
@@ -55,10 +56,13 @@ const Login = () => {
                     <Form.Control onBlur={handlePassword} type="password" placeholder="Password" />
                     <Form.Label className="text-danger">{error}</Form.Label>
                 </Form.Group>
-                <Button variant="primary" className="btn btn-primary" type="submit">
+                <Button variant="primary" className="btn btn-primary w-100" type="submit">
                     Submit
                 </Button>
-
+                <div className="text-center">
+                    <h6 className="my-2">OR</h6>
+                    <Link to="/registration" className="btn btn-primary w-100">Registration</Link>
+                </div>
             </Form>
         </div>
     );
