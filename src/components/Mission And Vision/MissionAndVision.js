@@ -1,9 +1,12 @@
 import React from 'react';
-
+import HosPital from '../../images/hospitalTwo.jpg'
 const MissionAndVision = () => {
     return (
-        <div style={{ marginTop: 200, textAlign: 'center' }}>
+        <div style={{ marginTop: 100, textAlign: 'center' }}>
             <div className="mx-auto" style={{ width: 700,textAlign: 'left'}}>
+                <div className="mb-5">
+                    <img src={HosPital} alt="" />
+                </div>
                 <h6>  Mission :</h6>
                 <p> Millennium Heart & General Hospital Ltd. is dedicated to provide high quality care of critical patient with unrelenting attention to clinical excellence, patient safety and an unparalleled passion and commitment to assure the very best healthcare for those we serve with cost-effectiveness.</p>
 
