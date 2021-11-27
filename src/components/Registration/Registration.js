@@ -48,7 +48,6 @@ const Registration = () => {
                     setError("This email is already taken!");
                 }
             })
-
     }
 
 
