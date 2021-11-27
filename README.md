@@ -16,4 +16,4 @@ In this website I used context api, react-hook,react custom-hook,firebase-authen
 * Log in registered user
 * Sign in with google
 * Private Route cannot be accessed without login or register
-* Responsive
+* User can open in phone,tablet or laptop.

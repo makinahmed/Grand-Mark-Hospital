@@ -39,11 +39,17 @@ const Login = () => {
     }
     console.log(user)
     return (
+<<<<<<< HEAD
         <div
 
             style={{ width: 300, textAlign: 'center', marginTop: 200, margin: 'auto' }}>
             <Form
                 className="border-1 border p-5 shadow rounded"
+=======
+        <div style={{ width: 300, textAlign: 'center', marginTop: 200, margin: 'auto' }}>
+            <Form
+              className="border-1 border p-5 shadow rounded"
+>>>>>>> 5162a75f273d5b80cb89d0d24cdf398543f7a6a3
                 onSubmit={handleSubmit}
                 style={{ marginTop: 200, textAlign: 'left' }}
 
@@ -61,12 +67,18 @@ const Login = () => {
                 <Button variant="primary" className="btn btn-primary w-100" type="submit">
                     Submit
                 </Button>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5162a75f273d5b80cb89d0d24cdf398543f7a6a3
                 <div className="text-center">
                     <h6 className="my-2">OR</h6>
                     <Link to="/registration" className="btn btn-primary w-100">Registration</Link>
                 </div>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5162a75f273d5b80cb89d0d24cdf398543f7a6a3
             </Form>
         </div>
     );

@@ -48,6 +48,10 @@ const Registration = () => {
                     setError("This email is already taken!");
                 }
             })
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5162a75f273d5b80cb89d0d24cdf398543f7a6a3
     }
 
 
@@ -89,16 +93,24 @@ const Registration = () => {
                     <Form.Control required onFocus={handleFocus} onBlur={handlePassword} type="password" placeholder="Password" />
                     <Form.Label>{suggestion}</Form.Label>
                 </Form.Group>
+<<<<<<< HEAD
                 <Button  variant="primary"
+=======
+                <Button variant="primary"
+>>>>>>> 5162a75f273d5b80cb89d0d24cdf398543f7a6a3
                     disabled={isSubmit}
                     className="btn btn-primary w-100 mb-2" type="submit">
                     Submit
                 </Button>
                 <br />
+<<<<<<< HEAD
                 <Form.Label className="text-center">Already Registered? <Link to="/login">login</Link></Form.Label>
 
 
 
+=======
+                <Form.Label>Already Registered? <Link to="/login">login</Link></Form.Label>
+>>>>>>> 5162a75f273d5b80cb89d0d24cdf398543f7a6a3
                 <div className="text-center">
                     <p className="my-2 text-center">Or</p>
                     <Link to="/" onClick={handleGoogleSignIn} className="btn btn-secondary text-center">
